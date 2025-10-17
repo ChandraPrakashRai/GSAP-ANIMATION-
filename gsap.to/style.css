@@ -1,0 +1,10 @@
+#parent {
+  display: flex;
+  gap: 20px;
+}
+
+#child1, #child2 {
+  width: 200px;
+  height: 200px;
+  position: relative; /* Must for left animation */
+}
